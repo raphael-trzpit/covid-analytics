@@ -15,10 +15,11 @@ Just do `make run-dev` to start the database and run the API.
 
 The main executable is cmd/api. It reads these environment variables:
 
-| Name | Description|
-| DATAGOUV_URL | The url where we import the data from |
-| DB_DSN | The mysql DSN to connect to the database (see [https://github.com/go-sql-driver/mysql#dsn-data-source-name](https://github.com/go-sql-driver/mysql#dsn-data-source-name))
-| HTTP_PORT | The HTTP port the server will be listening to |
+Name | Description
+-----|------------
+DATAGOUV_URL | The url where we import the data from
+DB_DSN | The mysql DSN to connect to the database (see [https://github.com/go-sql-driver/mysql#dsn-data-source-name](https://github.com/go-sql-driver/mysql#dsn-data-source-name))
+HTTP_PORT | The HTTP port the server will be listening to
 
 ## Routes
 
